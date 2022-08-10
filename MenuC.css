@@ -1,0 +1,34 @@
+.menu li:hover{
+	background-color: green;
+}
+
+.submenu li:hover{
+	background-color:black; 
+}
+
+.menu{
+	position: relative;
+	margin: 0px;
+	color: white;
+	list-style: none;
+ 	padding: 0;
+ 	width: 150px;
+ }
+ .menu li{
+ 	background-color: red;
+ 	margin-bottom: 1px;
+ }
+
+ .submenu{
+ 	position: absolute;
+ 	left: 151px;
+ 	top: 0;
+ 	display: none;
+ }
+ .submenu li:hover{
+ 	background-color: black;
+ }
+
+ .opcao_principal:hover .submenu{
+ 	display: block;
+} 
